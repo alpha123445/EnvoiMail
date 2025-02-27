@@ -30,10 +30,10 @@
             // Connexion
             $mail->Host = "smtp.gmail.com";
             $mail->Port = 587;
-            $mail->Username = "alpha.2024bah@gmail.com"; 
-            $mail->Password = "sbeimhooeldsyzwz"; 
+            $mail->Username = "tonemail"; 
+            $mail->Password = "tonpassword"; 
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-            $mail->setFrom('alpha.2024bah@gmail.com', 'Alpha Bah');
+            $mail->setFrom('tonemail', 'tonnom');
             $mail->addAddress($email, $nom); 
             $mail->CharSet = 'UTF-8';
             $mail->Encoding = 'base64';
