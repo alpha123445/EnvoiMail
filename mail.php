@@ -39,8 +39,8 @@
             $mail->Encoding = 'base64';
             $mail->isHTML(true);
             $mail->Subject = 'Confirmation de votre inscription';
-            $mail->Body = 'Bonjour ' . $nom . ', <br><br> Merci de vous être inscrit sur notre site. <br><br> Cordialement, <br> Alpha Bah';
-            $mail->AltBody = 'Ceci est un email de test avec PHPMailer, pas de panique si vous ne voyez pas le contenu en HTML';
+            $mail->Body = 'Bonjour ' . $nom . ', <br><br> Merci de vous être inscrit sur notre site. <br><br> Cordialement, <br>f';
+            $mail->AltBody = 'Ceci est un email de test avec PHPMailer';
 
             if ($mail->send()) {
                 echo "L'email a été envoyé avec succès.";
